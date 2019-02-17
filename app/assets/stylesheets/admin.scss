@@ -1,0 +1,574 @@
+.admin-footer {
+  margin-top: 85px;
+  background: #f2f2f2;
+  color: #322d59;
+  padding: 20px 10px 10px;
+}
+
+
+
+.showmore-button {
+  margin-top: -1px;
+  text-align: right;
+}
+.showmore-button-inner {
+  display: inline-block;
+  padding: 5px 10px;
+  line-height: 10px;
+  font-size: 14px;
+  color: #2c59a0;
+  cursor: pointer;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+
+.hm-gradient {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.darken-grey-text {
+    color: #2E2E2E;
+}
+.danger-text {
+    color: #ff3547; }
+.default-text {
+    color: #2BBBAD; 
+}
+.info-text {
+    color: #33b5e5; 
+}
+.form-white .md-form label {
+  color: #fff; 
+}
+.form-white input[type=text]:focus:not([readonly]) {
+    
+    -webkit-box-shadow: 0 1px 0 0 #fff;
+    box-shadow: 0 1px 0 0 #fff; 
+}
+.form-white input[type=text]:focus:not([readonly]) + label {
+    color: #fff; 
+}
+.form-white input[type=password]:focus:not([readonly]) {
+    
+    -webkit-box-shadow: 0 1px 0 0 #fff;
+    box-shadow: 0 1px 0 0 #fff; 
+}
+.form-white input[type=password]:focus:not([readonly]) + label {
+    color: #fff; 
+}
+.form-white input[type=password], .form-white input[type=text] {
+     
+}
+.form-white .form-control:focus {
+    color: #fff;
+}
+.form-white .form-control {
+    color: #fff;
+}
+.form-white textarea.md-textarea:focus:not([readonly]) {
+    
+    box-shadow: 0 1px 0 0 #fff;
+    color: #fff; 
+}
+.form-white textarea.md-textarea  {
+    
+    color: #fff;
+}
+.form-white textarea.md-textarea:focus:not([readonly])+label {
+    color: #fff;
+}
+.ripe-malinka-gradient {
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+.near-moon-gradient {
+    background-image: linear-gradient(to bottom, #5ee7df 0%, #b490ca 100%);
+}
+
+.admin-section {
+  a {
+    color: #444;
+
+    &.active {
+      font-weight: 500;
+      color: #27b67c;
+    }
+
+    &.btn {
+      color: white;
+
+      &.btn-default {
+        color: #444;
+      }
+    }
+  }
+
+  .controls {
+    margin: 16px 0;
+  }
+
+  .tabpanel {
+    margin: 30px 0;
+  }
+
+  .subcontrols {
+    margin: 8px 0;
+  }
+
+  .tagline, .subtagline {
+    margin-bottom: 20px;
+  }
+
+  .panel {
+    .panel-body {
+      padding: 0;
+    }
+
+    .padding {
+      padding: 15px;
+    }
+
+    td, th {
+      padding: 8px 15px;
+    }
+
+    .chart {
+      margin-right: 40px;
+      margin-top: 10px;
+    }
+
+    .text {
+      padding: 8px 15px;
+    }
+  }
+}
+
+.dataTables_length label {
+  font-weight: normal;
+}
+
+.dataTables_info {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.dataTables_paginate {
+  font-size: 14px;
+  text-align: right;
+
+  ul { margin: 0; }
+}
+
+.dataTables_filter {
+  text-align: right;
+
+  input.input-sm {
+    margin-left: 10px;
+    min-width: 250px;
+  }
+}
+
+.dataTable {
+  margin-top: 14px;
+}
+
+.dataTables_wrapper {
+  margin: 14px auto;
+}
+
+#sidebar {
+  .badge {
+    color: #444;
+    background-color:  white;
+    margin-top: 2px;
+    font-weight: normal;
+  }
+}
+
+table.text-center {
+  th {
+    text-align: center;
+  }
+  th.text-left {
+    text-align: left;
+  }
+}
+
+th.text-center {
+  text-align: center;
+}
+
+table.text-right {
+  th {
+    text-align: right;
+  }
+  th.text-left {
+    text-align: left;
+  }
+}
+
+th.text-right {
+  text-align: right;
+}
+
+.date {
+  min-width: 7em;
+}
+
+hr.style5 {
+  background-color: #fff;
+  border-top: 1px dashed #8c8b8b;
+}
+
+.icon {
+  min-width: 35px;
+  width: 35px;
+  max-width: 35px;
+}
+
+.admin-section a.expandable, .admin-section a.collapsible, .admin-section a.cross-click, {
+  color: grey;
+}
+
+.admin-section [contenteditable] a:not(.btn) { color: #337ab7; }
+.admin-section [contenteditable] a:hover { cursor: pointer; text-decoration: underline; }
+
+.grey {
+  color: #bbb !important;
+}
+
+.gray {
+  color: gray !important;
+}
+
+.viewer {
+  height: 1200px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.text-danger {
+  text-color: 'red';
+}
+
+.text-success {
+  text-color: '#3f903f';
+}
+
+.tabpanel .dropzone:not(.tpl) {
+  border-style: dashed;
+  border-color: #ddd;
+  min-height: 250px;
+}
+
+.legend {
+  padding: 0 6px;
+  margin: 0 5px 0 12px;
+
+  &.red {
+    border: solid 1px #ebcccc;
+    background-color: #f2dede;
+  }
+
+  &.yellow {
+    border: solid 1px #faf2cc;
+    background-color: #faf2cc;
+  }
+
+  &.green {
+    border: solid 1px #d0e9c6;
+    background-color: #dff0d8;
+  }
+
+  &.blue {
+    border: solid 1px #c4e3f3;
+    background-color: #d9edf7;
+  }
+}
+
+
+.status {
+  &.red {
+    color: darkred;
+  }
+
+  &.yellow {
+    color: darkorange;
+  }
+
+  &.green {
+    color: green;
+  }
+
+  &.blue {
+    color: blue;
+  }
+}
+
+.linker {
+  top: 8px !important;
+  margin: 0 10px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+#position-document iframe {
+  max-height: 960px;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+  background-color: #f5f5f5 !important;
+  color: black !important;
+}
+
+.hs-code-list-group .list-group-item  {
+  padding: 3px 15px;
+}
+
+.email-body {
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+#search-box {
+  margin: 8px 0px;
+
+  .has-feedback .form-control-feedback {
+    left: 3px;
+  }
+}
+
+.search-result {
+  margin: 5px;
+}
+
+.fintable .form-group {
+  margin-bottom: 0;
+}
+
+span.twitter-typeahead .tt-menu,
+span.twitter-typeahead .tt-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+span.twitter-typeahead .tt-suggestion {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333333;
+  white-space: nowrap;
+}
+span.twitter-typeahead .tt-suggestion.tt-cursor,
+span.twitter-typeahead .tt-suggestion:hover,
+span.twitter-typeahead .tt-suggestion:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #337ab7;
+}
+.input-group.input-group-lg span.twitter-typeahead .form-control {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+.input-group.input-group-sm span.twitter-typeahead .form-control {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+span.twitter-typeahead {
+  width: 100%;
+}
+.input-group span.twitter-typeahead {
+  display: block !important;
+  height: 34px;
+}
+.input-group span.twitter-typeahead .tt-menu,
+.input-group span.twitter-typeahead .tt-dropdown-menu {
+  top: 32px !important;
+}
+.input-group span.twitter-typeahead:not(:first-child):not(:last-child) .form-control {
+  border-radius: 0;
+}
+.input-group span.twitter-typeahead:first-child .form-control {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.input-group span.twitter-typeahead:last-child .form-control {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.input-group.input-group-sm span.twitter-typeahead {
+  height: 30px;
+}
+.input-group.input-group-sm span.twitter-typeahead .tt-menu,
+.input-group.input-group-sm span.twitter-typeahead .tt-dropdown-menu {
+  top: 30px !important;
+}
+.input-group.input-group-lg span.twitter-typeahead {
+  height: 46px;
+}
+.input-group.input-group-lg span.twitter-typeahead .tt-menu,
+.input-group.input-group-lg span.twitter-typeahead .tt-dropdown-menu {
+  top: 46px !important;
+}
+
+@media (min-width: 575px) {
+  .sider {
+    padding: 0 20px;
+    max-width: 1800px;
+    margin: auto;
+  }
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+}
+
+.btn-input {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+del.differ {
+  display: inline-block;
+  background-color: orangered;
+  color:white;
+  margin-right: 2px;
+  text-decoration: none;
+}
+
+ins.differ {
+  display: inline-block;
+  background-color: lime;
+  color: black;
+  text-decoration: none;
+}
+
+.no-padding {
+  padding: 0 !important
+}
+
+.no-underline {
+  text-decoration: none !important;
+}
+
+
+.disabled.disabled-date.day {
+  color: #ff0000;
+  &.active {
+    background-color: #ff0000;
+  }
+}
+
+.modal-body {
+  padding: 25px !important;
+}
+
+.modal-body .form-group {
+  display: initial !important;
+}
+
+.modal-body .form-control {
+  display: block !important;
+  width: 100% !important;
+}
+
+.modal-dialog {
+  margin-top: 100px !important;
+  width: 75% !important;
+}
+
+.borderless td, .borderless th {
+  border: none !important;
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
+.purple { color: #322d59; }
+
+.card {
+  .dataTables_wrapper {
+    margin: 0 !important;
+
+    .row:first-child, .row:last-child {
+      display: none;
+    }
+
+    table.datatable {
+      margin: 0 !important;
+    }
+  }
+}
+
+.custom-card-size {
+  font-size: 30px !important;
+}
+
+.no-admin-section .admin-section.tabpanel, .modal .admin-section.tabpanel {
+  margin: 0 auto;
+}
+
+table.fixedHeader-floating {
+  top: 55px !important;
+  table-layout: auto !important
+}
+
+.fixed-header { overflow-y: auto; clear:both; }
+
+.table-scroll tbody {
+  display: block;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.table-scroll thead,tfoot tr {
+  display: table-row;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.table-scroll tbody tr {
+  display: table-row;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.table.scroll-y {
+  margin-top: 0; margin-bottom: 0;
+}

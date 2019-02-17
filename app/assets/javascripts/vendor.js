@@ -1,0 +1,12 @@
+//= require dataTables/jquery.dataTables
+//= require dataTables/bootstrap/3/jquery.dataTables.bootstrap
+//= require dataTables.fixedHeader.min
+//= require datatables
+//= require twitter/typeahead
+//= require turbolinks
+//= require cleave
+//= require file-saver
+//= require xlsx
+//= require table-export
+//= require jquery.atwho
+//= require jquery.webticker.min

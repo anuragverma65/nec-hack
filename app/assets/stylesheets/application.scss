@@ -1,0 +1,43 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require bootstrap-select
+ *= require bootstrap-datepicker3
+ *= require bootstrap-datetimepicker
+ *= require fixedHeader.dataTables.min
+ *= require table-export
+ *= require jquery.atwho
+ *= require_tree .
+ *= require_self
+ */
+
+@media print {
+  .index-container, .admin-container { margin: 0 !important; }
+  .index-section { padding: 25px 0 !important; }
+
+  .col-print-1 { width:8.3333333333%;  float:left; }
+  .col-print-2 { width:16.6666666667%; float:left; }
+  .col-print-3 { width:25%; float:left; }
+  .col-print-4 { width:33.3333333333%; float:left; }
+  .col-print-5 { width:41.6666666667%; float:left; }
+  .col-print-6 { width:50%; float:left; }
+  .col-print-7 { width:58.3333333333%; float:left; }
+  .col-print-8 { width:66.6666666667%; float:left; }
+  .col-print-9 { width:75%; float:left; }
+  .col-print-10 { width:83.3333333333%; float:left; }
+  .col-print-11 { width:91.6666666667%; float:left; }
+  .col-print-12 { width:100%; float:left; }
+}
+
+@media only screen and (max-device-width:320px) and (orientation:portrait) {
+  html { zoom: 0.8; }
+}
